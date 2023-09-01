@@ -110,4 +110,7 @@ window.onload=function(){
             alert("여행 목적을 선택해주세요")
             return false
         }   
+         e.preventDefault(e); // 폼 제출을 중지
+                    window.location.href = 'index.html'
+
     }}
